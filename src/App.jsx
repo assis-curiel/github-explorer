@@ -1,4 +1,4 @@
-import { RepositoryList } from "./components/repository-list";
+import { RepositoryList } from "./components/RepositoryList";
 import "./styles/global.scss";
 
 export function App() {
