@@ -1,15 +1,19 @@
 import { RepositoryItem } from "./RepositoryItem";
 
-const repositoryName = "unform2";
+const repositoryName = 'unform2';
 
 export function RepositoryList() {
   return (
     <section className="repository-list">
-      <h1>Lista de Repositorios</h1>
+      <h1>Lista de repositório</h1>
+
       <ul>
-        <RepositoryItem repository="unform2" />
-        <RepositoryItem />
-        <RepositoryItem />
+       
+       <RepositoryItem repository='unform2'/>
+       <RepositoryItem/>
+       <RepositoryItem/>
+       <RepositoryItem/>
+       
       </ul>
     </section>
   );
